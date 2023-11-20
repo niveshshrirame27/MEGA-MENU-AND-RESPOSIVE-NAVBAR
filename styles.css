@@ -1,0 +1,58 @@
+/* Updated CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left,
+.nav-right {
+    flex: 1;
+    display: flex;
+}
+
+.nav-left ul,
+.nav-right ul {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    gap: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+li {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
